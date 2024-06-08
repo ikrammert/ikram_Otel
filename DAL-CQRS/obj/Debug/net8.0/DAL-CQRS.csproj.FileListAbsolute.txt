@@ -1,0 +1,5 @@
+C:\Users\ikrammert\Documents\GitHub\otel-cqrs\ikramOtel-cqrsMediatR\DAL-CQRS\obj\Debug\net8.0\DAL-CQRS.csproj.AssemblyReference.cache
+C:\Users\ikrammert\Documents\GitHub\otel-cqrs\ikramOtel-cqrsMediatR\DAL-CQRS\obj\Debug\net8.0\DAL-CQRS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ikrammert\Documents\GitHub\otel-cqrs\ikramOtel-cqrsMediatR\DAL-CQRS\obj\Debug\net8.0\DAL-CQRS.AssemblyInfoInputs.cache
+C:\Users\ikrammert\Documents\GitHub\otel-cqrs\ikramOtel-cqrsMediatR\DAL-CQRS\obj\Debug\net8.0\DAL-CQRS.AssemblyInfo.cs
+C:\Users\ikrammert\Documents\GitHub\otel-cqrs\ikramOtel-cqrsMediatR\DAL-CQRS\obj\Debug\net8.0\DAL-CQRS.csproj.CoreCompileInputs.cache
