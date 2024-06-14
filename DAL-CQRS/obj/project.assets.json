@@ -3093,26 +3093,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ikrammert\\.nuget\\packages\\": {}
+    "/Users/ikrammert/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ikrammert\\Documents\\GitHub\\otel-cqrs\\ikramOtel-cqrsMediatR\\DAL-CQRS\\DAL_CQRS.csproj",
+      "projectUniqueName": "/Users/ikrammert/Documents/GitHub/ikram_Otel/DAL-CQRS/DAL_CQRS.csproj",
       "projectName": "DAL_CQRS",
-      "projectPath": "c:\\Users\\ikrammert\\Documents\\GitHub\\otel-cqrs\\ikramOtel-cqrsMediatR\\DAL-CQRS\\DAL_CQRS.csproj",
-      "packagesPath": "C:\\Users\\ikrammert\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ikrammert\\Documents\\GitHub\\otel-cqrs\\ikramOtel-cqrsMediatR\\DAL-CQRS\\obj\\",
+      "projectPath": "/Users/ikrammert/Documents/GitHub/ikram_Otel/DAL-CQRS/DAL_CQRS.csproj",
+      "packagesPath": "/Users/ikrammert/.nuget/packages/",
+      "outputPath": "/Users/ikrammert/Documents/GitHub/ikram_Otel/DAL-CQRS/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ikrammert\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ikrammert/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "http://nuget.neredekal.com/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -3186,7 +3185,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

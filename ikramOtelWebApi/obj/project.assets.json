@@ -3533,26 +3533,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ikrammert\\.nuget\\packages\\": {}
+    "/Users/ikrammert/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ikrammert\\Documents\\GitHub\\otel-cqrs\\ikramOtel-cqrsMediatR\\ikramOtelWebApi\\ikramOtelWebApi.csproj",
+      "projectUniqueName": "/Users/ikrammert/Documents/GitHub/ikram_Otel/ikramOtelWebApi/ikramOtelWebApi.csproj",
       "projectName": "ikramOtelWebApi",
-      "projectPath": "c:\\Users\\ikrammert\\Documents\\GitHub\\otel-cqrs\\ikramOtel-cqrsMediatR\\ikramOtelWebApi\\ikramOtelWebApi.csproj",
-      "packagesPath": "C:\\Users\\ikrammert\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ikrammert\\Documents\\GitHub\\otel-cqrs\\ikramOtel-cqrsMediatR\\ikramOtelWebApi\\obj\\",
+      "projectPath": "/Users/ikrammert/Documents/GitHub/ikram_Otel/ikramOtelWebApi/ikramOtelWebApi.csproj",
+      "packagesPath": "/Users/ikrammert/.nuget/packages/",
+      "outputPath": "/Users/ikrammert/Documents/GitHub/ikram_Otel/ikramOtelWebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ikrammert\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ikrammert/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "http://nuget.neredekal.com/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -3560,8 +3559,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\ikrammert\\Documents\\GitHub\\otel-cqrs\\ikramOtel-cqrsMediatR\\DAL-CQRS\\DAL_CQRS.csproj": {
-              "projectPath": "c:\\Users\\ikrammert\\Documents\\GitHub\\otel-cqrs\\ikramOtel-cqrsMediatR\\DAL-CQRS\\DAL_CQRS.csproj"
+            "/Users/ikrammert/Documents/GitHub/ikram_Otel/DAL-CQRS/DAL_CQRS.csproj": {
+              "projectPath": "/Users/ikrammert/Documents/GitHub/ikram_Otel/DAL-CQRS/DAL_CQRS.csproj"
             }
           }
         }
@@ -3637,7 +3636,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
