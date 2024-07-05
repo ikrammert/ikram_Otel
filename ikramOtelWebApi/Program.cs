@@ -1,9 +1,10 @@
+using DAL_CQRS.EventConsumers;
+using DAL_CQRS.Handlers.CommandHandlers;
 using DAL_CQRS.Handlers.QueryHandlers;
 using DAL_CQRS.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
-using MongoDB.Driver.Core.Configuration;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,15 +20,16 @@ builder.Services.AddDbContext<CommandDbContext>(optionsAction: options =>
 
 var connectionString = builder.Configuration.GetConnectionString("MongoDb");
 builder.Services.AddSingleton<QueryDbContext>(sp => new QueryDbContext(connectionString, "Playgorund"));
+builder.Services.AddSingleton<EventStore>(sp => new EventStore(connectionString, "Playgorund"));
+
+builder.Services.AddHostedService<EventConsumerService>();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -35,9 +37,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
